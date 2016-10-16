@@ -1,0 +1,50 @@
+html body {
+	background-color: #FCF8EC;
+}
+	
+body { 
+	padding-left: 40px; 
+	padding-top: 50px; 
+}
+
+.content { 
+	width: 75%; 
+	position: fixed;
+
+}
+
+.title {
+	font-family: Lato:700;
+	font-size: 30px; 
+	font-weight: 700; 
+	color: #42449D;
+
+}
+
+.links {
+	color: #42449D; 
+	font-family: Lato:300;
+	font-weight: 300; 
+	font-size: 20px; 
+
+}
+
+a:link {
+	color: #42449D;  
+	text-decoration: none;
+}
+
+a:visited {
+	color: #42449D;
+}
+
+a:hover {
+	color: #4649DB; 
+}
+
+table {
+	width: 75%; 
+	border-collapse: separate;
+	border-spacing: 20px;
+	table-layout: fixed;
+}
