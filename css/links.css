@@ -5,27 +5,28 @@ html body {
 body { 
 	padding-left: 40px; 
 	padding-top: 50px; 
+	overflow: scroll;
 }
 
 .content { 
-	width: 75%; 
-	position: fixed;
-
+	width: 100%; 
+	position: fixed; 
 }
 
 .title {
-	font-family: Lato:700;
+	font-family:Lato;
 	font-size: 30px; 
-	font-weight: 700; 
+	font-weight: 800; 
 	color: #42449D;
-
+	margin-left: 18px; 
 }
 
 .links {
 	color: #42449D; 
-	font-family: Lato:300;
+	font-family: Lato;
 	font-weight: 300; 
 	font-size: 20px; 
+
 
 }
 
@@ -43,8 +44,13 @@ a:hover {
 }
 
 table {
-	width: 75%; 
+	width: 100%; 
 	border-collapse: separate;
 	border-spacing: 20px;
 	table-layout: fixed;
+	margin-bottom: 100px; 
 }
+
+
+
+
